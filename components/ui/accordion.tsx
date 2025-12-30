@@ -12,6 +12,10 @@ const AccordionContext = React.createContext<AccordionContextValue | undefined>(
   undefined
 );
 
+const AccordionItemContext = React.createContext<{ value: string } | undefined>(
+  undefined
+);
+
 interface AccordionProps {
   type?: "single" | "multiple";
   defaultValue?: string | string[];
@@ -150,10 +154,6 @@ interface AccordionContentProps {
   children: React.ReactNode;
   className?: string;
 }
-
-const AccordionItemContext = React.createContext<{ value: string } | undefined>(
-  undefined
-);
 
 const AccordionContent = React.forwardRef<HTMLDivElement, AccordionContentProps>(
   ({ children, className, ...props }, ref) => {
