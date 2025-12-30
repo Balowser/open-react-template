@@ -20,32 +20,90 @@ export default function Cta() {
         <div className="bg-linear-to-r from-transparent via-gray-800/50 py-12 md:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <h2
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-8 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
+              className="pb-4 font-nacelle text-3xl font-semibold text-gray-100 md:text-4xl"
               data-aos="fade-up"
             >
-              Join the content-first platform
+              Bereit für weniger Papierkram?
             </h2>
-            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
+            <p
+              className="mb-10 text-lg text-gray-300"
+              data-aos="fade-up"
+              data-aos-delay={200}
+            >
+              Starten Sie noch heute – in 5 Minuten eingerichtet, keine Vorkenntnisse nötig.
+            </p>
+            <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center sm:gap-4">
               <div data-aos="fade-up" data-aos-delay={400}>
                 <a
-                  className="btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                  className="group mb-4 inline-flex w-full items-center justify-center rounded-lg bg-indigo-600 px-8 py-4 text-base font-medium text-white shadow-lg transition-all hover:bg-indigo-700 hover:shadow-xl sm:mb-0 sm:w-auto"
                   href="#0"
                 >
-                  <span className="relative inline-flex items-center">
-                    Start Building
-                    <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
-                      -&gt;
-                    </span>
-                  </span>
+                  Kostenlos testen
+                  <svg
+                    className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 7l5 5m0 0l-5 5m5-5H6"
+                    />
+                  </svg>
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay={600}>
                 <a
-                  className="btn relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
+                  className="inline-flex w-full items-center justify-center rounded-lg border border-gray-700 bg-gray-800/50 px-8 py-4 text-base font-medium text-gray-200 backdrop-blur-sm transition-all hover:border-gray-600 hover:bg-gray-800 sm:w-auto"
                   href="#0"
                 >
-                  Schedule Demo
+                  Demo ansehen
                 </a>
+              </div>
+            </div>
+            {/* Trust badges */}
+            <div className="mx-auto mt-10 flex max-w-2xl flex-wrap justify-center gap-6 text-sm text-gray-400">
+              <div className="flex items-center gap-2">
+                <svg
+                  className="h-5 w-5 fill-indigo-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>14 Tage kostenlos</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  className="h-5 w-5 fill-indigo-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Jederzeit kündbar</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  className="h-5 w-5 fill-indigo-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>Keine Kreditkarte nötig</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg
+                  className="h-5 w-5 fill-indigo-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                </svg>
+                <span>DSGVO-konform</span>
               </div>
             </div>
           </div>

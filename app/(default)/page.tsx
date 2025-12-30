@@ -1,13 +1,19 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "BusLotse - Einfache Software für Bürgerbus-Vereine | 14 Tage gratis",
+  description:
+    "Verwalten Sie Ihren Bürgerbus-Verein einfach und sicher. Fahrzeuge, Fahrer, Wartungen - alles an einem Ort. Seniorenfreundlich & DSGVO-konform. Jetzt 14 Tage kostenlos testen!",
 };
 
 import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
+import ProblemSection from "@/components/problem-section";
+import SolutionSection from "@/components/solution-section";
 import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
+import WhyChooseUs from "@/components/why-choose-us";
+import Zielgruppen from "@/components/zielgruppen";
+import Pricing from "@/components/pricing";
+import TrustSection from "@/components/trust-section";
+import FAQ from "@/components/faq";
 import Cta from "@/components/cta";
 
 export default function Home() {
@@ -15,9 +21,14 @@ export default function Home() {
     <>
       <PageIllustration />
       <Hero />
-      <Workflows />
+      <ProblemSection />
+      <SolutionSection />
       <Features />
-      <Testimonials />
+      <WhyChooseUs />
+      <Zielgruppen />
+      <Pricing />
+      <TrustSection />
+      <FAQ />
       <Cta />
     </>
   );
