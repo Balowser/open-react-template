@@ -200,7 +200,7 @@ AccordionItemWithContext.displayName = "AccordionItem";
 
 export {
   Accordion,
-  AccordionItem: AccordionItemWithContext,
+  AccordionItemWithContext as AccordionItem,
   AccordionTrigger,
   AccordionContent,
 };
