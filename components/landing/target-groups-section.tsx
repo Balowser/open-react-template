@@ -4,7 +4,7 @@ const targetGroups = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -24,7 +24,7 @@ const targetGroups = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -44,7 +44,7 @@ const targetGroups = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

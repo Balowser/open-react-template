@@ -4,7 +4,7 @@ const painPoints = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-red-500"
+        className="h-8 w-8 text-orange-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -22,7 +22,7 @@ const painPoints = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-red-500"
+        className="h-8 w-8 text-orange-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -40,7 +40,7 @@ const painPoints = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-red-500"
+        className="h-8 w-8 text-orange-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -58,7 +58,7 @@ const painPoints = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-red-500"
+        className="h-8 w-8 text-orange-500"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

@@ -2,7 +2,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -20,7 +20,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -38,7 +38,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -56,7 +56,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -74,7 +74,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -92,7 +92,7 @@ const trustElements = [
   {
     icon: (
       <svg
-        className="h-8 w-8 text-indigo-600"
+        className="h-8 w-8 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"

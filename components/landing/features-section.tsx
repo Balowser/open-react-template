@@ -4,7 +4,7 @@ const features = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -30,7 +30,7 @@ const features = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -56,7 +56,7 @@ const features = [
   {
     icon: (
       <svg
-        className="h-10 w-10 text-indigo-600"
+        className="h-10 w-10 text-blue-600"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -110,7 +110,7 @@ export default function FeaturesSection() {
                 <ul className="space-y-2">
                   {feature.features.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
-                      <span className="mt-0.5 text-green-600">✓</span>
+                      <span className="mt-0.5 text-emerald-600">✓</span>
                       <span>{item}</span>
                     </li>
                   ))}

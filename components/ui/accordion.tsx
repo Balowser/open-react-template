@@ -119,7 +119,7 @@ const AccordionTrigger = React.forwardRef<
       ref={ref}
       type="button"
       className={cn(
-        "flex w-full items-center justify-between py-6 text-left font-semibold text-gray-900 transition-all hover:text-indigo-600 [&[data-state=open]>svg]:rotate-180",
+        "flex w-full items-center justify-between py-6 text-left font-semibold text-gray-900 transition-all hover:text-blue-600 [&[data-state=open]>svg]:rotate-180",
         className
       )}
       data-state={isOpen ? "open" : "closed"}

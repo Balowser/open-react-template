@@ -57,13 +57,13 @@ export default function PricingSection() {
               key={plan.name}
               className={`relative border-2 ${
                 plan.popular
-                  ? "border-indigo-600 shadow-lg"
+                  ? "border-blue-600 shadow-lg shadow-blue-100"
                   : "border-gray-200"
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <span className="rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold text-white">
+                  <span className="rounded-full bg-blue-600 px-4 py-1 text-sm font-semibold text-white shadow-md">
                     {plan.badge}
                   </span>
                 </div>
@@ -92,7 +92,7 @@ export default function PricingSection() {
                   {plan.features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <svg
-                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600"
+                        className="mt-0.5 h-5 w-5 flex-shrink-0 text-emerald-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -124,7 +124,7 @@ export default function PricingSection() {
         <div className="mx-auto mt-8 flex max-w-2xl flex-wrap justify-center gap-6 text-sm text-gray-600">
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-5 text-green-600"
+              className="h-5 w-5 text-emerald-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -140,7 +140,7 @@ export default function PricingSection() {
           </div>
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-5 text-green-600"
+              className="h-5 w-5 text-emerald-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -156,7 +156,7 @@ export default function PricingSection() {
           </div>
           <div className="flex items-center gap-2">
             <svg
-              className="h-5 w-5 text-green-600"
+              className="h-5 w-5 text-emerald-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
