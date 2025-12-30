@@ -4,32 +4,26 @@ export const metadata = {
     "Verwalten Sie Ihren Bürgerbus-Verein einfach und sicher. Fahrzeuge, Fahrer, Wartungen - alles an einem Ort. Seniorenfreundlich & DSGVO-konform. Jetzt 14 Tage kostenlos testen!",
 };
 
-import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-home";
-import ProblemSection from "@/components/problem-section";
-import SolutionSection from "@/components/solution-section";
-import Features from "@/components/features";
-import WhyChooseUs from "@/components/why-choose-us";
-import Zielgruppen from "@/components/zielgruppen";
-import Pricing from "@/components/pricing";
-import TrustSection from "@/components/trust-section";
-import FAQ from "@/components/faq";
-import Cta from "@/components/cta";
+import HeroSection from "@/components/landing/hero-section";
+import PainPointsSection from "@/components/landing/pain-points-section";
+import FeaturesSection from "@/components/landing/features-section";
+import TargetGroupsSection from "@/components/landing/target-groups-section";
+import PricingSection from "@/components/landing/pricing-section";
+import TrustSection from "@/components/landing/trust-section";
+import FAQSection from "@/components/landing/faq-section";
+import CTASection from "@/components/landing/cta-section";
 
 export default function Home() {
   return (
     <>
-      <PageIllustration />
-      <Hero />
-      <ProblemSection />
-      <SolutionSection />
-      <Features />
-      <WhyChooseUs />
-      <Zielgruppen />
-      <Pricing />
+      <HeroSection />
+      <PainPointsSection />
+      <FeaturesSection />
+      <TargetGroupsSection />
+      <PricingSection />
       <TrustSection />
-      <FAQ />
-      <Cta />
+      <FAQSection />
+      <CTASection />
     </>
   );
 }
